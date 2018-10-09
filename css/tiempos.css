@@ -1,0 +1,44 @@
+*,html,body{
+  top: 0;
+  right: 0;
+  left: 0;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 3%;
+
+}
+body {
+	background: url(../6grado/CA9.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+
+h2{
+	text-align: center;
+}
+.target{
+	background: #008C46;
+	width: 90%;
+	font-size: 1.2em;
+	color: white;
+}
+.center{
+	text-align:center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.target-2{
+	background:#cac4b0;
+	width: 90%;
+	font-size: 1.2em;
+}
+
+.extra{
+	width: 90%;
+	align-items: center;
+	text-align: center;
+	padding-top: 80px;
+}
