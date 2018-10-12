@@ -36,8 +36,8 @@ a {
  =============================================*/
  .main-wrapper {
  	display: block;
- 	margin: 50px auto 40px;
- 	width: 960px;
+ 	margin: 5px auto 40px;
+ 	width: 1300px;
  }
 
  .main-wrapper input[type="radio"] {
@@ -157,4 +157,27 @@ a {
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
 	transform: scale(1);
+}
+
+
+.video{
+	width: 80%;
+	margin-left: 200px;
+	background-color:#fcd1c6;
+}
+.video iframe{
+	margin-left: 300px;
+}
+
+.reto{
+
+	width: 100%;
+	height: 5%;
+	font-size: 4em;
+}
+.game{
+	font-size: 2em;	
+	color: black;
+	text-decoration:underline;
+	margin-left: 70%;
 }
