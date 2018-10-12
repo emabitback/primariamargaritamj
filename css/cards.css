@@ -186,3 +186,18 @@ section{
 section .videos{
   padding-left: 40px;
 }
+
+.atras{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  
+}
+.atras a{
+  color:white;
+  text-decoration: none;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}

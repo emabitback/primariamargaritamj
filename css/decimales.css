@@ -1,0 +1,36 @@
+.atras{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  
+}
+.atras a{
+  color:white;
+  text-decoration: none;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*=================================*/
+
+
+article{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			
+			height: 500px;
+			/*outline: 2px solid red; */
+			width: 90%;
+			margin:auto;
+			margin-bottom: 2	0px;
+			/*background: #ff7675;*/
+
+			/*Verde*/
+			/*background: rgba(210,255,82,1);*/
+
+			/*Azulito*/
+			background:rgba(179,220,237,1);
+}

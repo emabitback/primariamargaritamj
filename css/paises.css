@@ -15,6 +15,24 @@ body {
 	font-family: 'Open Sans', Arial, 'Helvetica Neue', Sans-serif, Verdana, Tahoma;
 	font-size: 62.5%;
 }
+/*====== CSS PARA BOTON ATRAS ======*/
+.atras{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  
+}
+.atras a{
+  color:black;
+  text-decoration: none;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*=================================*/
+
 
 ul {list-style-type: none;}
 

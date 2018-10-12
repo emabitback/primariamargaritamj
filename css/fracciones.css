@@ -5,6 +5,25 @@ body {
 
 }
 
+/*====== CSS PARA BOTON ATRAS ======*/
+.atras{
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  
+}
+.atras a{
+  color:white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*=================================*/
+
 .temas{
 	width: 70%;
 	margin-left: 15%;

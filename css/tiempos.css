@@ -14,12 +14,27 @@ body {
 	background-size: cover;
 
 }
-
+/* ============= CSS PARA BOTON ATRAS =======*/
+.atras{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+.atras a{
+  color:white;
+  text-decoration: none;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}
+/* ============================================*/
 
 h2{
 	text-align: center;
 }
 .target{
+	margin-top: 80px;
 	background: #008C46;
 	width: 90%;
 	font-size: 1.2em;
