@@ -1,4 +1,45 @@
 body{
 	width: 80%;
 	margin-left: 10%;
+	font-size: 1.6em;
+
 }	
+
+.description{
+	text-align: center;
+}
+
+.importante{
+	display: flex;
+	height: 100px;
+	align-items: center;
+}
+
+.importante > img{
+	max-height: 130px;
+}
+.p-importante{
+	background: #20c997;
+	font-weight: bold;
+}
+.tipos{
+	position: relative;
+	display: flex;
+}
+aside{
+	
+	flex:auto;
+	width: 24%;
+	height: 450px;
+	padding-left: 10px;
+	
+}
+
+.globulos-rojos{
+	background: #f22f54;
+	color: white;
+
+}
+.plaquetas{
+	background: #fdcb44;
+}
