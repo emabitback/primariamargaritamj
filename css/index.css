@@ -271,68 +271,63 @@ footer .direccion{
 
 @media screen and (max-width: 700px) {
   *,html,body{
-  top: 0;
-  right: 0;
-  left: 0;
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-.font-ema{
-  src: url(../GloriaHallelujah.ttf) format("truetype");
-  font-family: 'Gloria Hallelujah', cursive;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .font-ema{
+    src: url(../GloriaHallelujah.ttf) format("truetype");
+    font-family: 'Gloria Hallelujah', cursive;
+  }
 
-}
+  body{
+    background: url(../extra-images/wall.jpg) no-repeat fixed center center;
+    background-size: cover;
+  }
 
-body{
-  background: url(../extra-images/wall.jpg) no-repeat fixed center center;
-  background-size: cover;
-}
-
-body::after{
+  body::after{
     content: "";
     margin:0px;
     width: 100%;
-    height: 100%;
-    top: 0px;
+    height: 150vh;
+    top: 360px;
     left: 0px;
     position: absolute;
     background: linear-gradient(to right, black, black) repeat fixed
     center center;
     opacity: .8;
     z-index: -1;     
- }
-body::before{
-            content: "";
-            margin:0px;
-            width: 100%;
-            height: 100%;
-            top: 600px;
-            left: 0px;
-            position: absolute;
-        background: linear-gradient(to right, black, black) repeat fixed
-        center center;
+  }
+  body::before{
+    content: "";
+    margin:0px;
+    width: 100%;
+    height: 200vh;
+    top: 900px;
+    left: 0px;
+    position: absolute;
+    background: linear-gradient(to right, black, black) repeat fixed
+    center center;
+    opacity: .8;
+    z-index: -1;
+  } 
 
-        opacity: .8;
-        z-index: -1;
-    
-} 
-header{
-  margin: 0;
-  padding: 0;
-  background: yellow;
-  
+  header{
+    margin: 0;
+    padding: 0;
+    background: yellow;
+  }
 
-}
-
-nav{
-  margin-top: 0;
-  display: block;
-  background: #2ecc71;
-  line-height: 3;
-  font-weight: bold;
-  font-size:18px;
+  nav{
+    margin-top: 0;
+    display: block;
+    background: #2ecc71;
+    line-height: 3;
+    font-weight: bold;
+    font-size:18px;
     text-align: center;
   }
   .dropdown-content {
@@ -344,7 +339,7 @@ nav{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+  }
   .dropdown:hover{
     background:gray;
   }
@@ -360,130 +355,125 @@ nav{
     text-align: center;
   }
 
-#titulo{
-  width: 100%;
+  #titulo{
+    width: 100%;
 
-  margin-top: 300px;
-  margin-bottom: 50px;
-  line-height: 1;
-  font-size: 1.5em;
-  display:flex;
-  background: white;
-  color: black;
-  text-align: center;
-  display: block;
-}
+    margin-top: 300px;
+    margin-bottom: 50px;
+    line-height: 1;
+    font-size: 1.5em;
+    display:flex;
+    background: white;
+    color: black;
+    text-align: center;
+    display: block;
+  }
 
+  label{
+  	position: absolute;
+  	top:500px;
+  	width: 50px;
+  	background: #C4E538;
+  	
+  	font-weight: bold;
+  	text-align: center;
+  	padding-top: 0px;
+  	padding-bottom: 5px;
+  	z-index: 300;
+  	cursor: pointer;
+  }
 
+  .panel{
+    position: absolute;
+    top: 900px;
+    width: 98%;
+    height:500px;
+    left:-100%;
+    text-align: center;
+    justify-content: center;
+    overflow-x:hidden; 
+    border-radius: 20px;
+    transition: all 2s;
+    z-index: 250;
+  }
 
+  img{
+    max-width: 700px;
+  }
 
-label{
-	position: absolute;
-	top:500px;
-	width: 50px;
-	background: #C4E538;
-	
-	font-weight: bold;
-	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 5px;
-	z-index: 300;
-	cursor: pointer;
-}
-
-.panel{
-  position: absolute;
-  top: 40%;
-  width: 98%;
-  height:500px;
-  left:-100%;
-  text-align: center;
-  justify-content: center;
-  overflow-x:hidden; 
-  border-radius: 20px;
-  transition: all 2s;
-  z-index: 250;
-}
-
-img{
-  max-width: 700px;
-}
-
-label:hover ~ .panel{
-	top: 33%;
-   left:0%;
-}
+  label:hover ~ .panel{
+  	top: 33%;
+     left:0%;
+  }
 
 
 
-.portada{
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  .portada{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 
-}
-.portada #slogan{
-  background: steelblue;
-  width: 300px;
-  font-size: 1.2em;
-  height: 80px;
-  padding-top: 10px;
-  padding-bottom: 100px;
-  text-align: center;
-}
-p{
-  color: white;
-  font-weight: b;
-}
-
-
-.ni{
-  max-width: 300px;
-  max-height: 300px;
-
-}
-#myCarousel{
-  padding-top: 50px;
-  left: 200px;
-  text-align: center;
-}
-
-.carousel-indicators{
-  padding-top: 30px;
-  left: 180PX;
-}
-.carousel-inner{
-  text-align: center;
-}
-.item{
-  max-width: 300px;
-}
-
-footer{
-  margin-top: 50px;
-  height: 300px;
-  background: steelblue;
-  border-radius: 30px;
-  font-size: 1.2em;
-}
-footer .acerca{
-  padding-top: 20px;
-}
-
-footer .direccion{
-  padding-top: 20px;
-  text-align: center;
-  padding-bottom: 15px;
-}
+    }
+    .portada #slogan{
+      background: steelblue;
+      margin-left: 0px;
+      width: 300px;
+      font-size: 1.2em;
+      height: 80px;
+      padding-top: 10px;
+      padding-bottom: 100px;
+      text-align: center;
+    }
+    p{
+      color: white;
+      font-weight: bold;
+  }
 
 
+  .ni{
+    max-width: 300px;
+    max-height: 300px;
 
+  }
+  #myCarousel{
+    padding-top: 50px;
+    left: 10px;
+    text-align: center;
+  }
 
+  .carousel-indicators{
+    padding-top: 30px;
+    left: 180PX;
+  }
+  .carousel-inner{
+    text-align: center;
+  }
+  .item{
+    max-width: 300px;
+  }
 
+  footer{
+    margin-top: 50px;
+    height: 600px;
+    background: steelblue;
+    border-radius: 30px;
+    font-size: 1.2em;
+  }
+  footer .acerca{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
 
+  footer .direccion{
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+  }
 
   /*NAAAAAAAAvvv*/
-  
   
 }
