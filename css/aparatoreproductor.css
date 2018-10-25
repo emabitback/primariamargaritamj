@@ -1,13 +1,17 @@
 body{
 	width: 100%;
 	margin-left: 10%;
+	background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color:white;
+font-size: 1.7em;
 }
-
 
 .contenedor {
 			position: relative;
 			width: 80%;
-			height: 80vh;
+			height: 200vh;
 		}
 		.cabecera {
 			display: inline-block;
@@ -44,4 +48,10 @@ body{
 		p{
 			text-align: justify;
 			padding: 10px;
+		}
+		.centro{
+			text-align: center;
+		}
+		h3{
+			text-align: center;
 		}
