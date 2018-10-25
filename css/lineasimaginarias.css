@@ -2,3 +2,20 @@ body{
 	width: 80%;
 	margin-left: 10%;
 }
+
+img{
+	max-width: 1000px;
+	max-height: 1200px;
+	border-radius: 20px;
+}
+.principal{
+	display: flex;
+	flex: auto;
+	height: 300px;
+}
+
+
+.sabiasque{
+	width: 40%;
+	background: tomato;
+}
