@@ -1,4 +1,56 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
 body{
 	width: 80%;
 	margin-left: 10%;
+	box-sizing: border-box;
+}
+/*====== CSS PARA BOTON ATRAS ======*/
+.atras{
+  position: absolute;
+  top: 5px;
+  left: 30px;
+  
+}
+.atras a{
+  color:black;
+  text-decoration: none;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*=================================*/
+
+.regiones{
+	padding-top: 50px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+aside{
+	width: 47%;
+	margin:5px;
+	height: 480px;
+	/*
+	outline: 2px solid red;
+	*/
+}
+
+
+.regiones > aside>img{
+	margin-left: 50px;
+	max-width: 400px;
+	border-radius:15px;
+}
+
+
+.info{
+		float: right;
+
 }
