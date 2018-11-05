@@ -1,8 +1,8 @@
-<!--DIV PARA BOTON ATRAS-->
+  <!--DIV PARA BOTON ATRAS-->
 	 <div class="atras">
     	<a href="6espanol.html"> <img  class="atras-img" src="../extra-images/atras.png" alt="back to the menu"> <span>Regresar</span></a>
   	</div>
-  	<!--DIV PARA BOTON ATRAS-->
+  <!--DIV PARA BOTON ATRAS-->
 
 
 
