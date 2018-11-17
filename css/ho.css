@@ -7,6 +7,23 @@ body{
 	background: linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 }	
+/*====== CSS PARA BOTON ATRAS ======*/
+.atras{
+  position: absolute;
+  top: 10px;
+  left: 30px;
+  
+}
+.atras a{
+  color:white;
+  text-decoration: none;
+}
+.atras-img{
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/*=================================*/
 
 .ho{
 -webkit-box-shadow: 8px 0px 0px 0px #DCD0C0, 0px 8px 0px 0px #B1938B,
