@@ -1,3 +1,5 @@
+@import  url(media.css);
+
 section{
   display: flex;
   text-align:center;
