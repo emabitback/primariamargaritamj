@@ -51,3 +51,12 @@ background: #FFFFFF
 .position-enlace{
 	margin-left: 400px;
 }
+
+.galeria-a{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.galeria > img {
+	min-width: 300px;
+}

@@ -24,5 +24,15 @@
   .galeria > img{
   	max-width: 320px;
   }
+
+
+  .galeria-a{
+  	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+  }
+  .galeria-a > img{
+  	max-width: 300px;
+  }
   
 }
