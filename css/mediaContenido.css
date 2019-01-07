@@ -1,0 +1,28 @@
+
+
+@media screen and (max-width:600px ){
+	#titulo{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    line-height: 1;
+    font-size: 1.5em;
+    display:flex;
+    background: white;
+    color: black;
+    text-align: center;
+    display: block;
+  }
+  #titulo > img{
+  	max-width: 250px;
+  }
+  .galeria{
+  	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+  }
+  .galeria > img{
+  	max-width: 300px;
+  }
+  
+}

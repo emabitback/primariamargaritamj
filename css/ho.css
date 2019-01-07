@@ -1,3 +1,5 @@
+@import  url(mediaContenido.css);
+
 body{
 	width: 80%;
 	margin-left: 10%;
@@ -41,9 +43,7 @@ body#tinymce {
 background: #FFFFFF
 }
 
-.galeria > img{
-	width: 45%;
-}
+
 .galeria{
 	display: flex;
 	flex-wrap: wrap;
