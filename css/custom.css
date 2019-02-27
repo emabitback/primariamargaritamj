@@ -1,0 +1,29 @@
+/* Your custom css code goes here */
+.espaciado{
+	height: 200px;
+}
+
+.mural{
+	background-image: url(../img/EfemeridesFebrero.jpg);
+	width: 90%;
+	height: 600px;
+}
+
+@media screen and (max-width: 768px) {
+	.mural{
+		background-image: url(../img/EfemeridesFebrero.jpg);
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}	
+}
+
+.mural .mb0{
+	color: white;
+	font-size: 4em;
+	font-weight: bold;
+}
+
+.gif{
+	height: 300px;
+}
