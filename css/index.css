@@ -16,7 +16,8 @@
 body{
   background: url(../extra-images/wall.jpg) no-repeat fixed center center;
   background-size: cover;
-}  body::after{
+}  
+body::after{
       content: "";
       margin:0px;
       width: 100%;
@@ -28,34 +29,38 @@ body{
       center center;
       opacity: .8;
       z-index: -1;     
-  }
-  body::before{
-            content: "";
-            margin:0px;
-            width: 100%;
-            height: 800px;
-            top: 620px;
-            left: 0px;
-            position: absolute;
-        background: linear-gradient(to right, black, black) repeat fixed
-        center center;
+}
 
-        opacity: .8;
-        z-index: -1;
+body::before{
+    content: "";
+    margin:0px;
+    width: 100%;
+    height: 800px;
+    top: 620px;
+    left: 0px;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, black) repeat fixed
+        center center;
+    background: -o-linear-gradient(left, black, black) repeat fixed
+        center center;
+    background: linear-gradient(to right, black, black) repeat fixed
+        center center;
+    opacity: .8;
+    z-index: -1;
     
-  }
-  header{
+}
+header{
     width: 100%;
     height: 100px;
     background: steelblue;
     padding:25px 5px;
-  }
-  nav{
-  display:flex;
-  background:#4cd137;
-  line-height: 3;
-  font-weight: bold;
-  font-size:18px;
+}
+nav{
+    display:flex;
+    background:#4cd137;
+    line-height: 3;
+    font-weight: bold;
+    font-size:18px;
 }
 
 div{
@@ -114,7 +119,7 @@ nav .dropdown{
 }
   
 
-  #titulo{
+#titulo{
     width: 40%;
     margin:auto;
     margin-top: 20px;
@@ -126,10 +131,11 @@ nav .dropdown{
     
     background: white;
     color: black;
-  }
+}
 
 
-  label{
+
+label{
 	position: absolute;
 	top:150px;
 	width: 50px;
@@ -142,7 +148,7 @@ nav .dropdown{
 	z-index: 300;
 	cursor: pointer;
 
-	}
+}
 
 .panel{
   position: absolute;
@@ -157,6 +163,7 @@ nav .dropdown{
   transition: all 2s;
   z-index: 250;
 }
+
 .titulo-panel{
 	color:black;
 }
@@ -172,18 +179,15 @@ label:hover ~ .panel{
 }
 
 
+.portada{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
 
 
-  .portada{
-    width: 100%;
-    
-    display: flex;
-    justify-content: center;
-    
-    padding-bottom: 100px;
-
-  }
-  .portada #slogan{
+.portada #slogan{
     background: steelblue;
     width: 300px;
     height: 500px;
@@ -193,14 +197,14 @@ label:hover ~ .panel{
     padding-bottom: 5px;
     text-align: center;
     border-radius: 30px;
-  }
-  .portada .ni{
+}
+
+.portada .ni{
     max-height: 600px;
     border-radius: 30px;
-  }
+}
 
-
-  #myCarousel{
+#myCarousel{
     padding-top: 100px;
     width: 100%;
     height: 500px;
@@ -208,30 +212,35 @@ label:hover ~ .panel{
     align-items: center;
     margin-bottom: 20px;
     
-  }
-  .carousel-indicators{
-    padding-top:0;
-  }
+}
 
-  .item{
+.carousel-indicators{
+    padding-top:0;
+}
+
+.item{
     max-width: 700px;
     margin: auto;
-  }
-  .item img{
+}
+
+.item img{
     border-radius: 50px;
-  }
-  footer{
+}
+
+footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 30px;
     padding-top: 30px;
-  }
-  footer {
+}
+
+footer {
     justify-content: space-between;
-  }
+}
+
   
-  footer{
+footer{
   margin-top: 50px;
   background: steelblue;
   border-radius: 30px;
@@ -242,17 +251,14 @@ footer .direccion{
   text-align: center;
   padding-bottom: 15px;
 }
-  footer .acerca {
+
+footer .acerca {
     padding-left: 100px;
-  }
-  footer .direccion{
+}
+
+footer .direccion{
     padding-right:  100px;
-  }
-
-
-
-
-
+}
 
 
 
@@ -268,8 +274,9 @@ footer .direccion{
 */
 
 
+/*
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 500px) {
   *,html,body{
     top: 0;
     right: 0;
@@ -314,7 +321,7 @@ footer .direccion{
     opacity: .8;
     z-index: -1;
   } 
-
+  /*
   header{
     margin: 0;
     padding: 0;
@@ -354,7 +361,7 @@ footer .direccion{
     display: block;
     text-align: center;
   }
-
+  
   #titulo{
     width: 100%;
 
@@ -406,16 +413,15 @@ footer .direccion{
      left:0%;
   }
 
-
-
   .portada{
     width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
 
-    }
-    .portada #slogan{
+  }
+
+  .portada #slogan{
       background: steelblue;
       margin-left: 60px;
       width: 300px;
@@ -424,8 +430,9 @@ footer .direccion{
       padding-top: 10px;
       padding-bottom: 100px;
       text-align: center;
-    }
-    p{
+  }
+
+  p{
       color: white;
       font-weight: bold;
   }
@@ -434,8 +441,8 @@ footer .direccion{
   .ni{
     max-width: 300px;
     max-height: 300px;
-
   }
+
   #myCarousel{
     padding-top: 50px;
     left: 10px;
@@ -474,6 +481,12 @@ footer .direccion{
     padding-bottom: 5px;
   }
 
-  /*NAAAAAAAAvvv*/
+
   
 }
+
+*/
+
+
+/* MEDIA QUERY PARA MENU RESPONSIVE*/
+@import  url(../menuresponsivestyle.css);
